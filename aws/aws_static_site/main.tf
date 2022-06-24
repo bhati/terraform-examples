@@ -27,5 +27,5 @@ module "aws_reverse_proxy" {
   basic_auth_body        = "${var.basic_auth_body}"
   lambda_logging_enabled = "${var.lambda_logging_enabled}"
   tags                   = "${var.tags}"
-  newtags                = "${var.newtags}"
+  newtags                = "${var.newtags
 }
